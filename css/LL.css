@@ -1,37 +1,52 @@
-html {
+/* html {
     height: 100%;
-}
+} */
 
 .page-background {
-    background: url('../images/whirlpool.png');
+    background: url('../images/xv.png');
 
 }
 
 .navbar-brand {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: bold;
+}
 
+.navbar-expand-lg {
+    border-bottom: 5px solid #4aaaa5;
+    box-shadow: 1px 1px 3px #4C4843;
+
+}
+
+img {
+    weight: 300px;
+    height: 300px;
+    margin: 22px;
+    box-shadow: 1px 1px 3px #4C4843;
+    border: 2px solid white;
 }
 
 
 .card {
-    margin: auto;
+    margin: 50px auto;
     position: relative;
+    box-shadow: 1px 1px 3px #4C4843;
+
 }
 
 h2 {
     padding: 20px;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-
 p {
-    line-height: 25px;
+    line-height: 30px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 23px;
 }
 
 .form-group {
@@ -44,38 +59,47 @@ p {
     width: 200px;
     height: 200px;
     position: relative;
+    box-shadow: 1px 1px 3px #4C4843;
+    border: 2px solid white;
 
 }
+
 .img-1 {
     background: url('../images/china-pic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 30px;
-    
+    margin: 15%;
 }
+
 .img-2 {
     background: url('../images/portugal-pic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 30px;
+    margin: 15%;
+
 }
+
 
 .img-3 {
     background: url('../images/iceland-pic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 30px;
+    margin: 15%;
+    margin-bottom: 20%;
+
 }
+
 
 .img-4 {
     background: url('../images/vietnam-pic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 30px;
+    margin: 15%;
+    margin-bottom: 20%;
 }
 
 .banner h3{
@@ -85,13 +109,30 @@ p {
     position: absolute;
     bottom: 15px;
     width: 100%;
-    padding-top: 5px;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.banner h3:hover {
+    background: pink;
 }
 
+.form-group {
+    margin: 15px;
+}
+
+.btn {
+    margin: 10px 35px 20px;
+}
+.btn:hover {
+    background: pink;
+}
 
 footer {
-    padding-top: 50px;
+    padding-top: 40px;
     bottom: 0;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    border-top-width: 100%;
+
 }
