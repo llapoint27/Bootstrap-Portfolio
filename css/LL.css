@@ -1,6 +1,3 @@
-/* html {
-    height: 100%;
-} */
 
 .page-background {
     background: url('../images/xv.png');
@@ -19,6 +16,7 @@
 
 }
 
+/* About Page */
 img {
     weight: 300px;
     height: 300px;
@@ -54,6 +52,7 @@ p {
 }
 
 
+/* Portfolio Page */
 
 .img-1, .img-2, .img-3, .img-4 {
     width: 200px;
@@ -117,6 +116,13 @@ p {
     background: pink;
 }
 
+.psychic {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Contact Page */
 .form-group {
     margin: 15px;
 }
@@ -128,6 +134,7 @@ p {
     background: pink;
 }
 
+/* Footer for all Pages */
 footer {
     padding-top: 40px;
     bottom: 0;
