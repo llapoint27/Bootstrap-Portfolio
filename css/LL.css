@@ -18,7 +18,7 @@
 
 /* About Page */
 img {
-    weight: 300px;
+    width: 300px;
     height: 300px;
     margin: 22px;
     box-shadow: 1px 1px 3px #4C4843;
@@ -116,7 +116,7 @@ p {
     background: pink;
 }
 
-.psychic, .crystal-game {
+.game {
     color: white;
     text-decoration: none;
 }
